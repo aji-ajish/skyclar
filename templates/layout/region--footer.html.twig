@@ -1,0 +1,198 @@
+<footer class="footer">
+<div class="container">
+  <div class="row ">
+	<div class="col-md-14 order-1 order-md-1">
+	  <div class="logoSection">
+		<a href="javascript:;"><img src="{{ base_path ~ directory }}/images/logo/footer_logo.svg" class="logo" alt="Skyclarys"
+			aria-label="Skyclarys (omaveloxolone) 50mg capsules"></a>
+		<a href="javascript:;"><img src="{{ base_path ~ directory }}/images/logo/reata_logo.svg" class="logo" alt="Reata"
+			aria-label="Reata pharmaceuticals"></a>
+	  </div>
+	</div>
+	<div class="col-md-10 order-3 order-md-2">
+	  <ul>
+		<li><a class="text-link link-light" href="javascript:;">Legal Disclaimer</a> </li>
+		<li><a class="text-link link-light" href="javascript:;">Privacy Notice</a> </li>
+		<li><a class="text-link link-light" href="javascript:;">Contact Us</a> </li>
+		<li><a class="text-link link-light" href="javascript:;">Sitemap</a> </li>
+	  </ul>
+	</div>
+	<div class="col-md-16 order-2 order-md-3">
+	  <div class="footerText">
+		<p>Intended for a US audience.</p>
+
+		<p class="mb-0"> © 2023 Reata Pharmaceuticals, Inc.&nbsp; All rights reserved. SKYCLARYS and REATA are
+		  registered trademarks of Reata Pharmaceuticals, Inc. All other trademarks are the property of their
+		  respective owners. US&#8209;SKY&#8209;2300152&nbsp;05/2023</p>
+		<!-- <p class="mb-0">To unsubscribe from Skyclarys communications, <a class="text-link link-light"
+			href="javascript:;">click
+			here</a>.</p> -->
+	  </div>
+	</div>
+	<div class="col-md-8 order-4 order-md-4 ">
+	  <ul class="icons">
+		<li><a href="javascript:;" aria-label="Facebook"><i class="i i-fb"></i> </a> </li>
+		<!-- <li><a href="javascript:;"><i class="i i-instagram"></i> </a> </li> -->
+	  </ul>
+	</div>
+  </div>
+</div>
+</footer>
+
+<div class="popup popupLeaveSite" id="popupLeaveSite" data-modal="popupLeaveSite">
+<div class="popContent">
+  <div class="wrap">
+	<a href="javascript:;" class="close" data-hide="popupLeaveSite"><i class="i i-close_thin"></i></a>
+
+	<div class="heading"></div>
+	<div class="content"></div>
+	<div class="action">
+	  <a class="btn btn-accent btnContinue" href="javascript:;" target="_blank" data-hide="popupLeaveSite">
+		<span>Continue</span>
+	  </a>
+	  <a class="btn btn-outline-primary btnCancel" href="javascript:;" data-hide="popupLeaveSite">
+		<span>Cancel</span>
+	  </a>
+	</div>
+  </div>
+</div>
+</div>
+
+<div class="popup popupAreUSure" id="popupAreUSure" data-modal="popupAreUSure">
+<div class="popContent">
+  <div class="wrap">
+	<a href="javascript:;" class="close" data-hide="popupAreUSure"><i class="i i-close_thin"></i></a>
+	<div class="heading"></div>
+	<div class="content"></div>
+	<div class="action">
+	  <a class="btn btn-accent btnContinue" href="javascript:;" data-hide="popupAreUSure">
+		<span>Continue</span>
+	  </a>
+	  <a class="btn btn-outline-primary btnCancel" href="javascript:;" data-hide="popupAreUSure">
+		<span>Cancel</span>
+	  </a>
+	</div>
+  </div>
+</div>
+</div>
+
+<div class="popup popupGraphViewer" id="popupGraphViewer" data-modal="popupGraphViewer">
+<div class="popHeader ">
+  <a href="javascript:;" class="close" data-hide="popupGraphViewer"><i class="i i-close_thin"></i></a>
+</div>
+<div class="popContent">
+  <div class="container">
+	<!-- <div class="d-none d-md-block">
+	  <a href="javascript:;" class="close" data-hide="popupGraphViewer"><i class="i i-close_thin"></i></a>
+	</div> -->
+	<div class="instruction">
+	  <div class="wrap">
+		Rotate your phone to see the full chart
+		<div class="icon">
+		  <i class="i i-phone_landscape"></i>
+		</div>
+	  </div>
+	</div>
+	<figure class="scrollImg">
+	  <picture>
+		<source media="(min-width: 0)" srcset="">
+		<img src="" alt="chart">
+	  </picture>
+	</figure>
+  </div>
+</div>
+</div>
+
+<div id="snackbar" class="snackbar nmToast">
+<div class="snackbar-text"></div>
+<button class="snackbar-action" type="button"></button>
+</div>
+
+<div class="dialog" id="dialog" data-control="dialog">
+<div class="dialog-message"></div>
+<div class="dialog-footer t-r"></div>
+</div>
+
+<script crossorigin="anonymous"
+src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
+<script src="{{ base_path ~ directory }}/js/vendor/jquery.min.js"></script>
+<!-- <script src="{{ base_path ~ directory }}/js/vendor/jquery-ui.min.js"></script> -->
+<script src="{{ base_path ~ directory }}/js/vendor/popper.min.js"></script>
+<script src="{{ base_path ~ directory }}/js/vendor/bootstrap.min.js"></script>
+<script src="{{ base_path ~ directory }}/js/vendor/lottie.min.js"></script>
+<!-- <script src="{{ base_path ~ directory }}/js/vendor/owl.carousel.min.js"></script> -->
+<script src="{{ base_path ~ directory }}/js/vendor/swiper-bundle.min.js"></script>
+<script src="{{ base_path ~ directory }}/js/vendor/motus.web.js"></script>
+<!-- <script src="{{ base_path ~ directory }}/js/vendor/atropos.min.js"></script> -->
+<script src="{{ base_path ~ directory }}/js/vendor/lottie.min.js"></script>
+<!-- <script src="{{ base_path ~ directory }}/js/vendor/bootstrap-datetimepicker.js"></script> -->
+<script src="{{ base_path ~ directory }}/js/vendor/sumoselect.min.js"></script>
+<script src="{{ base_path ~ directory }}/js/config.js"></script>
+<script src="{{ base_path ~ directory }}/js/plugins.min.js"></script>
+<script src="{{ base_path ~ directory }}/js/main.min.js"></script>
+<script src="{{ base_path ~ directory }}/js/lottie-animations.js"></script>
+
+<script>
+	var CONFIG = {
+		dev: true,
+		root: '{{ base_path ~ directory }}',
+		fontSize: 15,
+		theme: "#584da0",
+		dtc: "/dtc",
+		hcp: "/hcp",
+		leaveSite: {
+		  title: "You are now leaving skyclarys.com",
+		  content: "Links are provided as a convenience and for general informational purposes only. Reata does not control the site you are going to. It is recommended you carefully review the terms of use and privacy statement of any other sites. You are solely responsible for your interactions."
+		},
+		api: {
+		  dtc: {
+			signUp: '/signup',
+			baseUrl: "https://skyclaryspatd2.wpengine.com/api"
+		  }
+		},
+		default: {
+		  timeZone: 'America/New_York',
+		  path: {
+			data: "{{ base_path ~ directory }}/data",
+			images: "{{ base_path ~ directory }}/images",
+			lottie: '{{ base_path ~ directory }}/lottie',
+			template: "{{ base_path ~ directory }}/templates"
+		  }
+		}
+	  };
+</script>
+
+<script>
+page.loader(false);
+
+la.cannot_patient = bodymovin.loadAnimation(setLottieOptions({
+  loop: false,
+  autoplay: false,
+  key: 'cannot_patient',
+  name: 'cannot_patient'
+}));
+
+la.cannot_patient_desktop = bodymovin.loadAnimation(setLottieOptions({
+  loop: true,
+  autoplay: false,
+  key: 'cannot_patient_desktop',
+  name: 'cannot_patient_desktop'
+}));
+
+$(function () {
+  setTimeout(function () {
+	page.loader(false);
+	lottieAnimate({
+	  nitroTrigger: {
+		key: 'cannot_patient'
+	  }
+	});
+	lottieAnimate({
+	  nitroTrigger: {
+		key: 'cannot_patient_desktop'
+	  }
+	});
+
+  }, 1000);
+});
+</script>

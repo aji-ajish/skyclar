@@ -1,0 +1,7 @@
+<?php 
+
+function skyclarys_preprocess(&$variables, $hook)
+{
+    $variables['base_path'] = base_path();
+    $variables['site_base_url'] = $GLOBALS['base_url'];
+}
